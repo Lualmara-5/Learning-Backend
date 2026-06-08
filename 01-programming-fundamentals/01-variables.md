@@ -150,11 +150,13 @@ int edad = 20;
 
 Podemos imaginar la memoria así:
 
+```text
 ┌─────────┐
 │ edad │
 ├─────────┤
 │ 20 │
 └─────────┘
+```
 
 Si luego hacemos:
 
@@ -164,11 +166,13 @@ edad = 25;
 
 La memoria quedaría:
 
+```text
 ┌─────────┐
 │ edad │
 ├─────────┤
 │ 25 │
 └─────────┘
+```
 
 El valor anterior ya no se utiliza.
 
