@@ -4,7 +4,7 @@ Repositorio donde documento mi aprendizaje de Backend Development desde cero.
 
 ## Objetivos
 
-- Aprender Java
+- Aprender Java (En este caso estoy utilizando Java 21)
 - Comprender Programación Orientada a Objetos
 - Aprender bases de datos
 - Construir APIs REST
@@ -13,7 +13,7 @@ Repositorio donde documento mi aprendizaje de Backend Development desde cero.
 
 ## Progreso
 
-- [x] JVM, JDK y JRE
+- [ ] JVM, JDK y JRE
 - [ ] Método main
 - [ ] Clases y Objetos
 - [ ] Encapsulación
