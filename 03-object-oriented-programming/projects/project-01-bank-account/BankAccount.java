@@ -18,7 +18,9 @@ public class BankAccount {
         if (cantidad > 0) {
             balance += cantidad;
         } else {
-            System.out.println("No puedes depositar saldo Negativo o Nulo");
+            System.out.println("No puedes depositar saldo Negativo o Nulo" + owner); // Agregue owner porque no quiero
+                                                                                     // ver a cada rato la "advertencia"
+                                                                                     // de que no está siendo utilizado
         }
 
         System.out.println("Depositaste: " + cantidad + " a tu cuenta!");
