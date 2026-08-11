@@ -1,4 +1,4 @@
-# Mini Projects
+# Exercises
 
 ## Objetivo
 
