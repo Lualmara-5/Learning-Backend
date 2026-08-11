@@ -12,18 +12,18 @@ Este repositorio nace con un objetivo: construir una base sólida de desarrollo 
 
 Durante este recorrido quiero aprender y fortalecer conocimientos en:
 
-* Java
-* Programación Orientada a Objetos
-* Bases de datos y SQL
-* HTTP y REST APIs
-* Spring Boot
-* Arquitectura y diseño de software
-* Testing
-* Seguridad
-* Docker
-* CI/CD y fundamentos de DevOps
-* Cloud / AWS
-* Buenas prácticas de desarrollo
+- Java
+- Programación Orientada a Objetos
+- Bases de datos y SQL
+- HTTP y REST APIs
+- Spring Boot
+- Arquitectura y diseño de software
+- Testing
+- Seguridad
+- Docker
+- CI/CD y fundamentos de DevOps
+- Cloud / AWS
+- Buenas prácticas de desarrollo
 
 El objetivo final es ser capaz de diseñar, desarrollar, probar y desplegar aplicaciones backend completas.
 
@@ -87,11 +87,11 @@ No se trata de títulos profesionales, sino de hitos personales dentro del apren
 
 En este nivel se construye la base:
 
-* Programación fundamental
-* Java
-* POO
-* Java Core
-* Estructuras de datos
+- Programación fundamental
+- Java
+- POO
+- Java Core
+- Estructuras de datos
 
 🏆 **Meta:** poder resolver problemas utilizando Java de manera independiente.
 
@@ -105,16 +105,16 @@ En este nivel se construye la base:
 
 Se incorporan:
 
-* SQL
-* Bases de datos
-* Git
-* Gradle
-* HTTP
-* REST
-* JDBC
-* Spring Boot
-* Spring Data JPA
-* Hibernate
+- SQL
+- Bases de datos
+- Git
+- Gradle
+- HTTP
+- REST
+- JDBC
+- Spring Boot
+- Spring Data JPA
+- Hibernate
 
 🏆 **Meta:** construir una REST API funcional utilizando Spring Boot y una base de datos.
 
@@ -128,15 +128,15 @@ Se incorporan:
 
 Se incorporan:
 
-* Clean Code
-* SOLID
-* Design Patterns
-* JUnit
-* Mockito
-* Testing
-* Spring Security
-* Autenticación y autorización
-* JWT
+- Clean Code
+- SOLID
+- Design Patterns
+- JUnit
+- Mockito
+- Testing
+- Spring Security
+- Autenticación y autorización
+- JWT
 
 🏆 **Meta:** transformar una API funcional en una aplicación backend más robusta y mantenible.
 
@@ -150,14 +150,14 @@ Se incorporan:
 
 Se incorporan:
 
-* Arquitectura por capas
-* Arquitectura Hexagonal
-* Domain-Driven Design
-* Docker
-* CI/CD
-* GitHub Actions
-* DevOps
-* AWS
+- Arquitectura por capas
+- Arquitectura Hexagonal
+- Domain-Driven Design
+- Docker
+- CI/CD
+- GitHub Actions
+- DevOps
+- AWS
 
 🏆 **Meta:** diseñar, desarrollar y desplegar un sistema backend completo aplicando arquitectura, testing, seguridad y automatización.
 
@@ -215,23 +215,23 @@ Al finalizar el roadmap se desarrollará un proyecto completo que integre los pr
 
 El proyecto buscará incorporar progresivamente:
 
-* Java
-* Spring Boot
-* REST API
-* PostgreSQL
-* Spring Data JPA
-* Hibernate
-* Validaciones
-* Manejo de excepciones
-* SOLID
-* Testing
-* Spring Security
-* JWT
-* Arquitectura Hexagonal
-* Domain-Driven Design
-* Docker
-* CI/CD
-* AWS
+- Java
+- Spring Boot
+- REST API
+- PostgreSQL
+- Spring Data JPA
+- Hibernate
+- Validaciones
+- Manejo de excepciones
+- SOLID
+- Testing
+- Spring Security
+- JWT
+- Arquitectura Hexagonal
+- Domain-Driven Design
+- Docker
+- CI/CD
+- AWS
 
 > El objetivo no es simplemente terminar un proyecto, sino demostrar cómo los conocimientos adquiridos durante el recorrido pueden combinarse para construir un sistema real.
 
@@ -309,7 +309,7 @@ Cada nuevo concepto debería terminar, siempre que sea posible, aplicado en cód
 
 **Nivel 1 — Fundamentos**
 
-> *The journey begins...*
+> _The journey begins..._
 
 ---
 
