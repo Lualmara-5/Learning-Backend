@@ -311,83 +311,186 @@ Car ES un Engine
 
 ## Objetivo
 
-Crear una clase abstracta:
+Crear un sistema sencillo de empleados utilizando una **clase abstracta** como clase base.
+
+El sistema tendrá:
+
+```text
+Employee
+├── Developer
+└── Designer
+```
+
+La clase `Employee` debe ser abstracta y las clases `Developer` y `Designer` deben heredar de ella.
+
+---
+
+## 1. Clase `Employee`
+
+Crear una clase abstracta llamada:
 
 ```text
 Employee
 ```
 
-Debe contener:
+Debe tener un atributo privado:
 
 ```java
 private String name;
 ```
 
-y un método abstracto:
+Como el nombre debe ser proporcionado al crear un empleado, crea un constructor.
+
+También debe contener el método abstracto:
 
 ```java
 public abstract double calculateSalary();
 ```
 
-Además, debe tener un método normal:
+Y un método normal:
 
 ```java
-public void showName()
+public void showName() {}
 ```
 
-Crear dos clases:
+---
+
+## 2. Clase `Developer`
+
+Crear una clase:
 
 ```text
 Developer
-Designer
 ```
 
-Ambas deben heredar de `Employee`.
+que herede de `Employee`.
 
-Cada una debe implementar `calculateSalary()` de manera diferente.
+Su constructor debe recibir el nombre y utilizar `super()` para enviar ese nombre al constructor de la clase padre.
+
+Implementar `calculateSalary()` utilizando `@Override`.
+
+Puedes utilizar un salario fijo para este ejercicio.
 
 Por ejemplo:
 
 ```text
-Developer → salario calculado según sus condiciones
-
-Designer → salario calculado según sus condiciones
+Developer → 3.000.000
 ```
 
-Después:
+---
+
+## 3. Clase `Designer`
+
+Crear una clase:
+
+```text
+Designer
+```
+
+que herede de `Employee`.
+
+También debe tener un constructor que reciba el nombre y utilice:
 
 ```java
-Employee employee1 = new Developer();
-Employee employee2 = new Designer();
+super(name);
 ```
 
-Ejecutar:
+Implementar `calculateSalary()` utilizando `@Override`.
+
+Puedes utilizar un salario diferente al del `Developer`.
+
+Por ejemplo:
+
+```text
+Designer → 2.500.000
+```
+
+---
+
+## 4. Main
+
+En `Main`, crear los empleados utilizando una referencia de tipo `Employee`:
+
+```java
+Employee employee1 = new Developer("Alejandro");
+Employee employee2 = new Designer("Carlos");
+```
+
+Después ejecutar:
 
 ```java
 employee1.showName();
-employee1.calculateSalary();
+System.out.println(employee1.calculateSalary());
 
 employee2.showName();
-employee2.calculateSalary();
+System.out.println(employee2.calculateSalary());
 ```
+
+La salida puede ser similar a:
+
+```text
+Employee: Alejandro
+3000000.0
+
+Employee: Carlos
+2500000.0
+```
+
+---
 
 ## Conceptos utilizados
 
 - Abstract classes
 - Inheritance
 - Encapsulation
-- Polymorphism
+- Constructors
+- `super()`
 - Method overriding
+- Polymorphism
+
+---
 
 ## Objetivo adicional
 
-Prestar atención a esta línea:
+Prestar especial atención a:
+
+### `super(name)`
+
+Recordar que:
 
 ```java
-Employee employee1 = new Developer();
+super(name);
 ```
 
-Explicar por qué es válida.
+llama al constructor de la clase padre (`Employee`) y le entrega el nombre.
+
+### Polymorphism
+
+Entender por qué esto es válido:
+
+```java
+Employee employee1 = new Developer("Alejandro");
+```
+
+La referencia es de tipo `Employee`, pero el objeto creado es un `Developer`.
+
+Por eso, cuando se ejecuta:
+
+```java
+employee1.calculateSalary();
+```
+
+Java utiliza la implementación de `calculateSalary()` que pertenece a `Developer`.
+
+---
+
+## Preguntas para reflexionar
+
+1. ¿Por qué `Employee` es una clase abstracta?
+2. ¿Por qué `calculateSalary()` es abstracto?
+3. ¿Qué función cumple `super(name)`?
+4. ¿Qué diferencia existe entre el tipo de la referencia (`Employee`) y el tipo del objeto (`Developer`)?
+5. ¿Qué implementación de `calculateSalary()` se ejecuta al utilizar `employee1.calculateSalary()`?
 
 ---
 
